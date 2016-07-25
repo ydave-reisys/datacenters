@@ -22,7 +22,7 @@ exclude:
 # Site metadata
 name: "Data Center Optimization Initiative (DCOI)"
 description: "Data Center Optimization Initiative (DCOI)"
-baseurl: https://whitehouse.github.io/datacenters
+baseurl: https://datacenters.cio.gov/
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/datacenters/
 #baseurl: /datacenters/
 
