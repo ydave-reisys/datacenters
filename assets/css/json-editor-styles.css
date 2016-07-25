@@ -1,8 +1,4 @@
 /*styles*/
-body {
-    background-color: #eee;
-}
-
 ol {
     counter-reset: item
 }
