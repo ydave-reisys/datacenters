@@ -37,21 +37,21 @@ navigation:
 - text: Home
   url: /
 - text: Policy
-  url: /policy/
+  url: /datacenters/policy/
 - text: Leadership and Responsibilities
-  url: /responsibilities/
+  url: /datacenters/responsibilities/
 - text: Transition to Cloud and Data Center Shared Services
-  url: /transition/
+  url: /datacenters/transition/
 - text: Optimization of Physical Data Centers
-  url: /optimization/
+  url: /datacenters/optimization/
 - text: Metric Target Values
-  url: /metrictarget/
+  url: /datacenters/metrictarget/
 - text: Reporting
-  url: /reporting/
+  url: /datacenters/reporting/
 - text: Data Center Optimization Transparency
-  url: /transparency/
+  url: /datacenters/transparency/
 - text: Community Support
-  url: /community/
+  url: /datacenters/community/
 
 # sass
 sass:
