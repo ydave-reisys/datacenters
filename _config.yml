@@ -52,6 +52,8 @@ navigation:
   url: /datacenters/transparency/
 - text: Community Support
   url: /datacenters/community/
+- text: JSON Editor Tool
+  url: /datacenters/json-editor
 
 # sass
 sass:
