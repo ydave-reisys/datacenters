@@ -3,23 +3,22 @@
   <nav class="sidebar-nav" role="navigation">
     <ul>
       {% for link in site.navigation %}
+        <li>
+          <a href="{{ link.url }}">{{ link.text }}</a>
+        </li>
         {% if link.submenu %}
             <ul>
             {% for sublink in link.submenu %}
-                <li>
+                {% assign current = '' %}
+                {% if page.url == sublink.url %}
+                    {% assign current = 'sidebar-nav-active' %}
+                {% endif %}
+                <li class="{{ current }}">
                     <a href="{{ sublink.url }}">{{ sublink.text }}</a>
                 </li>
             {% endfor %}
             </ul>
         {% endif %}
-
-        {% assign current = '' %}
-        {% if page.url == link.url %}
-          {% assign current = 'sidebar-nav-active' %}
-        {% endif %}
-        <li class="{{ current }}">
-          <a href="{{ link.url }}">{{ link.text }}</a>
-        </li>
       {% endfor %}
     </ul>
   </nav>
