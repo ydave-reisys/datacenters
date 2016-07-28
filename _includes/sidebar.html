@@ -3,6 +3,16 @@
   <nav class="sidebar-nav" role="navigation">
     <ul>
       {% for link in site.navigation %}
+        {% if link.submenu %}
+            <ul>
+            {% for sublink in link.submenu %}
+                <li>
+                    <a href="{{ sublink.url }}">{{ sublink.text }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+
         {% assign current = '' %}
         {% if page.url == link.url %}
           {% assign current = 'sidebar-nav-active' %}
@@ -13,13 +23,4 @@
       {% endfor %}
     </ul>
   </nav>
-  <p>
-    <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/issues/">Discuss</a>
-  </p>
-  <p>
-    <a href="https://github.com/{{ site.org_name }}/{{ site.repo_name }}/edit/{{ site.branch }}/{{ page.path }}">Edit this page</a>
-  </p>
-  <p>
-    <a href="{{ site.baseurl }}/ProposedDataCenterOptimizationInitiativeMemo.pdf">View PDF</a>
-  </p>
 </aside>
