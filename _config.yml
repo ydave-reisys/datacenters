@@ -35,25 +35,9 @@ branch: gh-pages
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: /
-- text: Policy
-  url: /datacenters/policy/
-- text: Leadership and Responsibilities
-  url: /datacenters/responsibilities/
-- text: Transition to Cloud and Data Center Shared Services
-  url: /datacenters/transition/
-- text: Optimization of Physical Data Centers
-  url: /datacenters/optimization/
-- text: Metric Target Values
-  url: /datacenters/metrictarget/
-- text: Reporting
-  url: /datacenters/reporting/
-- text: Data Center Optimization Transparency
-  url: /datacenters/transparency/
-- text: Community Support
-  url: /datacenters/community/
-- text: JSON Editor Tool
-  url: /datacenters/json-editor
+  url: /datacenters
+- text: Resources for Agencies
+  url:
 
 # sass
 sass:
