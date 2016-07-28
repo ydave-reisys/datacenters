@@ -37,7 +37,6 @@ navigation:
 - text: Home
   url: /datacenters
 - text: Resources for Agencies
-  url:
   submenu:
     - text: Inventory Data Submission
       url:
@@ -48,7 +47,6 @@ navigation:
     - text: Contact Information & Community of Practice
       url:
 - text: Resources for the Public
-  url:
   submenu:
     - text: View PDF of Memorandum
       url: /ProposedDataCenterOptimizationInitiativeMemo.pdf
