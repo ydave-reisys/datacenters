@@ -344,3 +344,8 @@ a.skip-link:focus {
 .invisible {
     visibility: hidden;
 }
+/* make sidebar heading consistent with the list */
+li span.sidebar-heading{
+  padding: 10px;
+  display: block;
+}
