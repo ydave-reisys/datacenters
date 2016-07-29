@@ -49,7 +49,7 @@ navigation:
 - text: Resources for the Public
   submenu:
     - text: View PDF of Memorandum
-      url: /assests/documents/DCOI_DRAFT_06 22 2016.pdf
+      url: /datacenters/assests/documents/DCOI_DRAFT_06 22 2016.pdf
     - text: Implementation & Progress to Date
       url:
 
