@@ -353,10 +353,9 @@ li span.sidebar-heading{
 ul.submenu{
   margin-left: 20px !important;
 }
-ul.submenu li:first-child {
+ul.submenu li:nth-child(2) {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
   border-radius: 6px;
-  padding: 10px 16px;
 }
