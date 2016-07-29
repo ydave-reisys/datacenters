@@ -4,7 +4,11 @@
     <ul>
       {% for link in site.navigation %}
         <li>
-          <a href="{{ link.url }}">{{ link.text }}</a>
+          {% if link.url %}
+            <a href="{{ link.url }}">{{ link.text }}</a>
+          {% else %}
+            {{ link.text }}
+          {% endif %}
         </li>
         {% if link.submenu %}
             <ul>
