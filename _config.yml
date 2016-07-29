@@ -37,14 +37,13 @@ navigation:
 - text: Home
   url: /
 - text: Resources for Agencies
-  url: /datacenters/reporting
   submenu:
     - text: Inventory Data Submission
       url:
     - text: Strategic Plan Formulation
       url:
     - text: Ordering Shared Services
-      url:  /datacenters/ordering-shared-services/
+      url:  /ordering-shared-services/
     - text: Contact Information & Community of Practice
       url:
 - text: Resources for the Public
