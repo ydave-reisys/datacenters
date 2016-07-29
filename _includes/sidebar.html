@@ -7,11 +7,11 @@
           {% if link.url %}
             <a href="{{ link.url }}">{{ link.text }}</a>
           {% else %}
-            {{ link.text }}
+            <span class="sidebar-heading">{{ link.text }}<span>
           {% endif %}
         </li>
         {% if link.submenu %}
-            <ul>
+            <ul class="submenu">
             {% for sublink in link.submenu %}
                 {% assign current = '' %}
                 {% if page.url == sublink.url %}
