@@ -353,6 +353,6 @@ li span.sidebar-heading{
 ul.submenu{
   margin-left: 20px !important;
 }
-ul.submenu:first-child {
-  background-color: yellow;
+ul.submenu li:first-child {
+  background: yellow;
 }
