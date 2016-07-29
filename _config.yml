@@ -39,7 +39,7 @@ navigation:
 - text: Resources for Agencies
   submenu:
     - text: Inventory Data Submission
-      url:
+      url:  /inventory-data-submission/
     - text: Strategic Plan Formulation
       url:
     - text: Ordering Shared Services
