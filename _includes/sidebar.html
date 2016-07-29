@@ -13,7 +13,7 @@
                 {% if page.url == sublink.url %}
                     {% assign current = 'sidebar-nav-active' %}
                 {% endif %}
-                <li class="sidebar-subnav {{ current }}">
+                <li class="sidebar-subnav {{ current }} {{ page.url }}">
                     <a href="{{ sublink.url }}">{{ sublink.text }}</a>
                 </li>
             {% endfor %}
