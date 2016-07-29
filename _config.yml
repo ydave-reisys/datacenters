@@ -41,7 +41,7 @@ navigation:
     - text: Inventory Data Submission
       url:  /datacenters/inventory-data-submission/
     - text: Strategic Plan Formulation
-      url:
+      url:  /datacenters/strategic-plan
     - text: Ordering Shared Services
       url:  /datacenters/ordering-shared-services/
     - text: Contact Information & Community of Practice
