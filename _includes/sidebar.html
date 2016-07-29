@@ -7,7 +7,7 @@
           {% if link.url %}
             <a href="{{ link.url }}">{{ link.text }}</a>
           {% else %}
-            {{ link.text }}
+            <span>{{ link.text }}<span>
           {% endif %}
         </li>
         {% if link.submenu %}
