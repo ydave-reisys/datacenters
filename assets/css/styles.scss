@@ -370,32 +370,3 @@ ul.submenu{
   width:400px;
   height:260px;
 }
-  .contact-info table{
-    table {
-      border-collapse: collapse !important;
-    }
-    table td, table th {
-    border: 1px solid black;
-    text-align:left;
-    font-weight:normal;
-    vertical-align:middle;
-    padding:5px;
-  }
-  table tr:first-child th {
-    border-top: 0 !important;
-  }
-  table tr:first-child td {
-  border-top: 0 !important;
-  }
-  table tr:last-child td {
-    border-bottom: 0 !important;
-  }
-  table tr td:first-child,
-  table tr th:first-child {
-    border-left: 0 !important;
-  }
-  table tr td:last-child,
-  table tr th:last-child {
-    border-right: 0 !important;
-  }
-}
