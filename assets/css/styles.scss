@@ -370,6 +370,23 @@ ul.submenu{
   width:400px;
   height:260px;
 }
-.contact-info{
-  border: none !important;
-}
+  table.contact-info {
+    border-collapse: collapse !important;
+  }
+  table td, table th {
+    border: 1px solid black;
+  }
+  table tr:first-child th {
+    border-top: 0 !important;
+  }
+  table tr:last-child td {
+    border-bottom: 0 !important;
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-left: 0 !important;
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-right: 0 !important;
+  }
