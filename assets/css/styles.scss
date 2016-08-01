@@ -370,12 +370,11 @@ ul.submenu{
   width:400px;
   height:260px;
 }
-  .contact-info {
-    table{
+  .contact-info table{
+    table {
       border-collapse: collapse !important;
     }
-
-  table td, table th {
+    table td, table th {
     border: 1px solid black;
     text-align:left;
     font-weight:normal;
