@@ -359,3 +359,14 @@ ul.submenu{
   border-color: #2e6da4;
   border-radius: 6px;
 }*/
+/* float the divs parallel */
+.inter-agency{
+  width:400px;
+  float:left
+}
+/* set the images with consistent height and width */
+.inter-agency-img{
+  display:block;
+  width:400px;
+  height:260px;
+}
