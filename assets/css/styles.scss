@@ -371,7 +371,9 @@ ul.submenu{
   height:260px;
 }
   .contact-info {
-    border-collapse: collapse !important;
+    table{
+      border-collapse: collapse !important;
+    }
 
   table td, table th {
     border: 1px solid black;
