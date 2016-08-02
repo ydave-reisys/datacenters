@@ -203,9 +203,10 @@ aside {
 
   .sidebar-nav a {
     display: block;
-    padding: 10px;
+    padding: 6px;
     -webkit-transition: .4s;
     transition: .4s;
+    font-size: 16px;
   }
   .sidebar-nav a,
   .sidebar-nav a:link,
@@ -354,6 +355,7 @@ li span.sidebar-heading{
   display: block;
   color:#75787b;
   font-weight: bolder;
+  font-size: 18px;
 }
 ul.submenu{
   margin-left: 20px !important;
