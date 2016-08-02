@@ -53,7 +53,7 @@ navigation:
 - text: Resources for the Public
   submenu:
     - text: View PDF of Memorandum
-      url: /datacenters/assets/documents/DCOI_DRAFT_06_22_2016.pdf
+      url: /datacenters/assets/documents/memo_16_19_1.pdf
     - text: Implementation & Progress to Date
       url: /datacenters/
 
