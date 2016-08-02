@@ -12,7 +12,7 @@ $border-gray:         #babbbd;
 $link:                #0072ce;
 $link-active:         #002d72;
 $link-hover:          #7eb8dd;
-
+$footer:              #153E56;
 $header-height:        80px;
 $header-height-mobile: 65px;
 
@@ -376,11 +376,11 @@ ul.submenu{
   padding: 0px;
 }
 /* footer */
-/*.footer{
-  background-color: #153E56;
-  padding: 1.3em;
-  color: #ffffff;
-  position: fixed;
-  height: 170px;
+footer{
+  background-color: $footer;
+  //padding: 1.3em;
+  color: $white;
+  height: 120px;
   width: 100%;
-}*/
+  bottom:0px;
+}
