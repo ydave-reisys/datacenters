@@ -395,8 +395,13 @@ footer{
   float: left;
   list-style: none;
   font-size: 13px;
+  line-height: 3;
 }
 .region-footer ul li a{
   color: $white;
   border-bottom: none;
+}
+.region-footer .list-two{
+  margin-left: 15px;
+  margin-right: 15px;
 }
