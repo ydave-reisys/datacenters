@@ -22,7 +22,7 @@ exclude:
 # Site metadata
 name: "Data Center Optimization Initiative (DCOI)"
 description: "Data Center Optimization Initiative (DCOI)"
-baseurl: https://ydave-reisys.github.io/datacenters/
+baseurl: https://ydave-reisys.github.io/
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/datacenters/
 #baseurl: /datacenters/
 
@@ -39,7 +39,7 @@ navigation:
 - text: Resources for Agencies
   submenu:
     - text: Inventory Data Submission
-      url:  /inventory-data-submission/
+      url:  /datacenters/inventory-data-submission/
     - text: Strategic Plan Formulation
       url:  /datacenters/strategic-plan/
     - text: Ordering Shared Services
