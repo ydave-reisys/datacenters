@@ -35,11 +35,11 @@ branch: gh-pages
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: /
+  url: /datacenters/
 - text: Resources for Agencies
   submenu:
     - text: Inventory Data Submission
-      url:  /datacenters/inventory-data-submission/
+      url:  /inventory-data-submission/
     - text: Strategic Plan Formulation
       url:  /datacenters/strategic-plan/
     - text: Ordering Shared Services
