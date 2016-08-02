@@ -401,6 +401,9 @@ footer{
   color: $white;
   border-bottom: none;
 }
+.region-footer ul li a:hover{
+  text-decoration: underline;
+}
 .region-footer .list-two{
   margin-left: 15px;
   margin-right: 15px;
