@@ -213,7 +213,9 @@ aside {
     border-bottom: none;
     color: $mid-gray;
   }
-
+  .sidebar-nav a:hover{
+    color: #153E56;
+  }
   .sidebar-nav li:hover,
   .sidebar-nav .sidebar-nav-active {
     color: $mid-gray;
@@ -344,6 +346,8 @@ a.skip-link:focus {
 .invisible {
     visibility: hidden;
 }
+
+/*Specific to FITARA*/
 /* make sidebar heading consistent with the list */
 li span.sidebar-heading{
   padding: 10px;
@@ -353,12 +357,6 @@ li span.sidebar-heading{
 ul.submenu{
   margin-left: 20px !important;
 }
-/*ul.submenu li:nth-child(2) {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-  border-radius: 6px;
-}*/
 /* float the divs parallel */
 .inter-agency{
   width:400px;
@@ -370,6 +368,7 @@ ul.submenu{
   width:400px;
   height:260px;
 }
+/* make the table look like a list */
 #contact-info,
 #contact-info tr,
 #contact-info td {
