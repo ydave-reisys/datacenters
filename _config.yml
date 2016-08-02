@@ -39,17 +39,17 @@ navigation:
 - text: Resources for Agencies
   submenu:
     - text: Inventory Data Submission
-      url:  /datacenters/agency-resource/inventory-data-submission/
+      url:  /datacenters/inventory-data-submission/
     - text: DCOI Strategic Plans
       submenu:
         - text: Agency Strategic Plans
-          url:  /datacenters/agency-resource/dcoi-plan/agency-strategic-plan/
+          url:  /datacenters/agency-strategic-plan/
         - text: JSON Conversion Tool
-          url:  /datacenters/agency-resource/dcoi-plan/json-conversion-tool/
+          url:  /datacenters/json-conversion-tool/
     - text: Data Center Shared Services
-      url:  /datacenters/agency-resource/ordering-shared-services/
+      url:  /datacenters/ordering-shared-services/
     - text: Contact Information & Community of Practice
-      url:  /datacenters/agency-resource/contactinfo-and-practice/
+      url:  /datacenters/contactinfo-and-practice/
 - text: Resources for the Public
   submenu:
     - text: View PDF of Memorandum
