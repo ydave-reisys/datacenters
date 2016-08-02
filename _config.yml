@@ -51,7 +51,7 @@ navigation:
     - text: View PDF of Memorandum
       url: /datacenters/assets/documents/DCOI_DRAFT_06_22_2016.pdf
     - text: Implementation & Progress to Date
-      url:
+      url: /datacenters/
 
 # sass
 sass:
