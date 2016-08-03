@@ -65,6 +65,7 @@ div.panel.panel-danger.errors {
 
 label.control-label {
     margin-top: 20px;
+    font-weight: 700;
 }
 
 div.form-group.field {
