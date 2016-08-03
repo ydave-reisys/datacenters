@@ -49,7 +49,11 @@ navigation:
     - text: Data Center Shared Services
       url:  /datacenters/ordering-shared-services/
     - text: Contact Information & Community of Practice
-      url:  /datacenters/contactinfo-and-practice/
+      submenu:
+        - text: Contact Information
+          url:  /datacenters/contact-info/
+        - text: Community of Practice
+          url: /datacenters/community-practice/
 - text: Resources for the Public
   submenu:
     - text: View PDF of Memorandum
