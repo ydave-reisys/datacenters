@@ -108,8 +108,8 @@ div.form-group > input {
 div.form-group > fieldset{
     border: none;
 }
-div.app > button{
-    display: inline-block;
+button{
+
     padding: 6px 12px;
     font-size: 14px;
     font-weight: 400;
