@@ -158,3 +158,10 @@ button{
     background-color: #286090;
     border-color: #204d74;
 }
+.error-detail ul{
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.error-detail ul li{
+    color: #a94442;
+}
