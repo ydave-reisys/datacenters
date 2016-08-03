@@ -178,12 +178,12 @@
                                     key: 'ctrls'
                                 },
                                 React.createElement("button", {
-                                    className: "dummy data",
+                                    className: "dummy-data",
                                     onClick: this.loadDummyData,
                                     key: 'dummy'
                                 }, "Load dummy data (test)"),
                                 React.createElement("button", {
-                                    className: "own data",
+                                    className: "own-data",
                                     onClick: this.showLoadMyDataForm,
                                     key: 'mydata'
                                 }, "Load my own data")
