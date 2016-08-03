@@ -168,7 +168,7 @@
 
                     return React.createElement(
                         'div',
-                        {className: 'container'},
+                        {className: ''},
                         [
                             React.createElement(
                                 'div',
