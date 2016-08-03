@@ -102,3 +102,6 @@ div.form-group > input {
     line-height: 1.42857143;
     display:block;
 }
+div.form-group > fieldset{
+    border: none;
+}
