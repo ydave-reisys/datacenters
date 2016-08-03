@@ -20793,7 +20793,7 @@
                                     null,
                                     _react2.default.createElement(
                                         "button",
-                                        { type: "submit", className: "btn btn-info" },
+                                        { type: "submit", className: "submit-info" },
                                         "Submit"
                                     )
                                 )
