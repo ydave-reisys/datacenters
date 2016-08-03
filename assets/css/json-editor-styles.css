@@ -83,6 +83,7 @@ div.form-group.field > label {
 div.form-group.field > p {
     order: 2;
     margin: 0;
+    font-size: 14px;
 }
 
 div.form-group.field > input, div.form-group.field > textarea {
@@ -156,4 +157,11 @@ button{
     color: #fff;
     background-color: #286090;
     border-color: #204d74;
+}
+.error-detail ul{
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.error-detail ul li{
+    color: #a94442;
 }
