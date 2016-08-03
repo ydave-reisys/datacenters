@@ -164,4 +164,5 @@ ul.error-detail{
 }
 ul.error-detail li{
     color: #a94442;
+    margin: 0;
 }
