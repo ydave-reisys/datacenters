@@ -150,7 +150,7 @@ button{
     color: #fff;
     background-color: #337ab7;
     border-color: #2e6da4;
-    margin-right: 2em;
+    margin-right: 1em;
     margin-bottom: 1em;
 }
 .submit-info:hover{
@@ -164,4 +164,5 @@ ul.error-detail{
 }
 ul.error-detail li{
     color: #a94442;
+    margin: 0;
 }
