@@ -83,6 +83,7 @@ div.form-group.field > label {
 div.form-group.field > p {
     order: 2;
     margin: 0;
+    font-size: 14px;
 }
 
 div.form-group.field > input, div.form-group.field > textarea {
