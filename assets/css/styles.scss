@@ -361,18 +361,17 @@ li span.sidebar-heading{
   font-weight: bolder;
   font-size: 18px;
 }
-ul.submenu{
+ul.submenu-one, .submenu-two{
   margin-left: 20px !important;
   color:#75787b;
   font-size: 18px;
 }
 li span.sub-heading{
-  padding-top: 6px;
-  padding-bottom: 6px;
   font-size: 15px;
   color:#75787b;
   font-weight: bold;
 }
+ul
 /* float the divs parallel */
 .inter-agency{
   //width:200px;
