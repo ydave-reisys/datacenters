@@ -11,7 +11,7 @@
           {% endif %}
         </li>
         {% if link.submenu %}
-            <ul class="submenu">
+            <ul class="submenu-one">
             {% for sublink in link.submenu %}
                 {% assign current = '' %}
                 {% if page.url == sublink.url %}
@@ -27,7 +27,7 @@
                 </li>
 
                 {% if sublink.submenu %}
-                    <ul class="submenu">
+                    <ul class="submenu-two">
                         {% for sublink2 in sublink.submenu %}
                             {% assign current = '' %}
                             {% if page.url == sublink2.url %}
