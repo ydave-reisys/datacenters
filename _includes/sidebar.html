@@ -18,7 +18,7 @@
                     {% assign current = 'sidebar-nav-active' %}
                 {% endif %}
 
-                <li class="{{ current }}">
+                <li style="padding:6px" class="{{ current }}">
                     {% if sublink.url %}
                         <a href="{{ sublink.url }}">{{ sublink.text }}</a>
                     {% else %}
