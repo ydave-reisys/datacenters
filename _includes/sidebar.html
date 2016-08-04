@@ -22,7 +22,7 @@
                     {% if sublink.url %}
                         <a href="{{ sublink.url }}">{{ sublink.text }}</a>
                     {% else %}
-                        <span class="sidebar-heading" style="font-size:15px;padding:10px; line-height:1.4em;">{{ sublink.text }}</span>
+                        <span class="sidebar-heading" style="font-size:16px;padding:10px; line-height:1.4em;">{{ sublink.text }}</span>
                     {% endif %}
                 </li>
 
@@ -34,7 +34,7 @@
                                 {% assign current = 'sidebar-nav-active' %}
                             {% endif %}
                             <li class="{{ current }}">
-                                <a href="{{ sublink2.url }}">{{ sublink2.text }}</a>
+                                <a href="{{ sublink2.url }}" style="font-size:15px">{{ sublink2.text }}</a>
                             </li>
                         {% endfor %}
                     </ul>
