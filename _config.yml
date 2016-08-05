@@ -57,7 +57,7 @@ navigation:
 - text: Resources for the Public
   submenu:
     - text: View PDF of Memorandum
-      url: https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_19_1
+      url: https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf/
     - text: Implementation & Progress to Date
       url: /datacenters/implementation-and-progress/
 
