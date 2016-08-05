@@ -47,7 +47,7 @@ navigation:
         - text: JSON Conversion Tool
           url:  /datacenters/json-conversion-tool/
     - text: Data Center Shared Services
-      url:  /datacenters/ordering-shared-services/
+      url:  /datacenters/datacenter-shared-services/
     - text: Contact Information & Community of Practice
       submenu:
         - text: Contact Information
