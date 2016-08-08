@@ -110,7 +110,7 @@
 	    },
 
 	    generateJson(data) {
-	        var out = React.createElement("textarea style="width:100%"", {
+	        var out = React.createElement("textarea", {
 	            className: "form-control",
 	            value: JSON.stringify(data.formData, null, "\t"),
 	            readOnly: true
