@@ -46,6 +46,8 @@ navigation:
           url:  /datacenters/agency-strategic-plan/
         - text: JSON Conversion Tool
           url:  /datacenters/json-conversion-tool/
+        - text: Agency FITARA Milestones Submission
+          url:  /datacenters/milestones/
     - text: Data Center Shared Services
       url:  /datacenters/datacenter-shared-services/
     - text: Contact Information & Community of Practice
