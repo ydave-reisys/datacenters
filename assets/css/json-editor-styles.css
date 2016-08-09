@@ -165,7 +165,7 @@ ul.error-detail li{
     color: #a94442;
     margin: 0;
 }
-
+/*508 compliant*/
 button:focus {
-    background-color: yellow;
+    border:1px dotted black;
 }
