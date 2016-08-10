@@ -4,6 +4,6 @@
 
 $(document).ready(function(){
     $('a[href*="htt"]').click(function() {
-        confirm("You are now leaving Datacenters.cio.gov");
+        alert("You are now leaving Datacenters.cio.gov");
     });
 });
