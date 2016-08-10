@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function(){
-    $('a[href*="htt"]').each(function() {
+    $('a[href*="htt"]').click(function() {
         alert("helloworld");
     });
 });
