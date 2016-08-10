@@ -135,6 +135,9 @@
 	            React.createElement("h4",
 	                {}, "Please enter your json:"
 	            ),
+                React.createElement("label",
+                    { for: "json-input", className: "sr-only"}, "my text:"
+                ),
 	            React.createElement("textarea",
 	                {
 	                    className: "form-control",
