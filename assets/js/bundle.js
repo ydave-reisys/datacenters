@@ -135,7 +135,7 @@
 	            React.createElement("h4",
 	                {}, "Please enter your json:"
 	            ),
-	            React.createElement("textarea",
+	            React.createElement("textarea aria-label='Enter Json'",
 	                {
 	                    className: "form-control",
 	                    id: "json-input"
