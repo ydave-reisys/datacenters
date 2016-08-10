@@ -169,3 +169,6 @@ ul.error-detail li{
 button:focus {
     border:1px dotted black;
 }
+.error-detail ul{
+    list-style: none;
+}
