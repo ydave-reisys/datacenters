@@ -417,3 +417,8 @@ sup{
   position: inherit !important;
   vertical-align: top !important;
 }
+
+a[href]:after{
+  content: "["attr(href)"]";
+}
+
