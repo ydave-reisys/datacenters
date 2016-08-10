@@ -54,7 +54,7 @@ navigation:
       submenu:
         - text: Contact Information
           url:  /datacenters/contact-info/
-        - text: Community of Practice
+        - text: DCOI Community of Practice
           url: /datacenters/community-practice/
 - text: Resources for the Public
   submenu:
