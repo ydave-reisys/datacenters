@@ -136,13 +136,13 @@
 	                {}, "Please enter your json:"
 	            ),
                 React.createElement("label",
-                    { for: "json-input", className: "sr-only"}, "my text:"
+                    { htmlFor: "json-input", className: "sr-only"}, "Enter json"
                 ),
 	            React.createElement("textarea",
 	                {
 	                    className: "form-control",
-	                    id: "json-input",
-                        label: "Enter Json"
+	                    id: "json-input"
+
 	                }
 	            ),
 	            React.createElement("div",
