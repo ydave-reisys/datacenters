@@ -3,8 +3,5 @@
  */
 
 $("a").click(function(){
-    if($('a[href=="https://"]')){
-        alert("u win");
-    }
-
+  alert("u left");
 });
