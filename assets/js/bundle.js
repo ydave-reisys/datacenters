@@ -137,8 +137,9 @@
 	            ),
 	            React.createElement("textarea",
 	                {
-	                    className: "form-control aria-label='Enter Json'",
-	                    id: "json-input"
+	                    className: "form-control",
+	                    id: "json-input",
+                        label: "Enter Json"
 	                }
 	            ),
 	            React.createElement("div",
