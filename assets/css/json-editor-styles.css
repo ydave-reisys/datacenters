@@ -3,7 +3,7 @@ ol {
     counter-reset: item
 }
 
-li {
+.table-of-contents li {
     display: block
 }
 
