@@ -160,6 +160,7 @@ button{
 ul.error-detail{
     font-size: 14px;
     line-height: 1.42857143;
+    list-style: none;
 }
 ul.error-detail li{
     color: #a94442;
@@ -168,7 +169,4 @@ ul.error-detail li{
 /*508 compliant*/
 button:focus {
     border:1px dotted black;
-}
-.error-detail ul{
-    list-style: none;
 }
