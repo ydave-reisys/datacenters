@@ -417,11 +417,7 @@ sup{
   position: inherit !important;
   vertical-align: top !important;
 }
-//Styles for PRINT Media ONLY
-//@media print {
-  //a[href]:after {
-     //content: "["attr(href)"]";
-  //}
+//Styles for PRINT Media ONLY 508
   @media print {
     *,
     *:before,
