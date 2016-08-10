@@ -150,7 +150,7 @@
 	                React.createElement("button",
 	                    {
 	                        onClick: this.loadMyData,
-	                        className: "btn btn-primary"
+	                        className: "load-data"
 	                    },
 	                    "Load data"
 	                ))
