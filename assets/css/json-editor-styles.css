@@ -36,7 +36,7 @@ ol {
 }
 
 legend {
-    color: darkcyan;
+    color: #096363;
     font-size: 18px;
     border-bottom: 1px solid #e5e5e5;
     width: 100%;
@@ -138,7 +138,7 @@ button{
 }
 .own-data{
     color: #fff;
-    background-color: #d9534f;
+    background-color: #ad211d;
     border-color: #d43f3a;
     margin-bottom: 1em;
 }
