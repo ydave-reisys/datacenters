@@ -479,6 +479,6 @@ sup{
       page-break-after: avoid;
     }
     article{
-      width:100%;
+      @include span-columns(12);
     }
 }
