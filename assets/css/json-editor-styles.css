@@ -159,7 +159,7 @@ button{
     border-color: #2e6da4;
     margin-top: 1em;
 }
-.submit-info,.load-data:hover{
+.submit-info:hover,.load-data:hover{
     color: #fff;
     background-color: #286090;
     border-color: #204d74;
