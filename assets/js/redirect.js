@@ -1,12 +1,7 @@
 /**
  * Created by keerti.nandihalli on 8/10/16.
  */
-
-/*$(document).ready(function(){
-    $('a[href*="htt"]').click(function() {
-        alert("You are now leaving Datacenters.cio.gov");
-    });
-});*/
+//508 alert message when user clicks on external link
 
 $(document).ready(function(){
     $('a[target="_blank"]').click(function() {
