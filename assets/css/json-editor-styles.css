@@ -173,6 +173,6 @@ button:focus {
 }
 /*Tooltip for 508*/
 .tooltip {
-    position: relative;
-    display: inline-block;
+    /*position: relative;
+    //display: inline-block;*/
 }
