@@ -171,3 +171,8 @@ ul.error-detail li{
 button:focus {
     border:1px dotted black;
 }
+/*Tooltip for 508*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
