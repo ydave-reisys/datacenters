@@ -65,7 +65,7 @@ div.panel.panel-danger.errors {
     background-color: black;
     //color: #fff;
     text-align: center;
-    position: absolute;
+    /*position: absolute;*/
     z-index: 1;
 }
 
@@ -183,7 +183,7 @@ button:focus {
     display: inline-block;
 }*/
 .tooltip{
-    position: relative;
+    /*position: relative;*/
 }
 .tooltip:hover.help-block {
     visibility: visible;
