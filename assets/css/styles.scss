@@ -482,8 +482,3 @@ sup{
       @include span-columns(12);
     }
 }
-.address-block{
-  @include outer-container;
-  h2 { @include span-columns(3); }
-  p { @include span-columns(9); }
-}
