@@ -61,6 +61,10 @@ div.panel.panel-danger.errors {
 
 .has-error .help-block {
     color: #737373 !important;
+    visibility: hidden;
+    background-color: black;
+    //color: #fff;
+    text-align: center;
 }
 
 .has-error .form-control {
@@ -172,7 +176,11 @@ button:focus {
     border:1px dotted black;
 }
 /*Tooltip for 508*/
-.tooltip {
-    /*position: relative;
-    //display: inline-block;*/
+/*.tooltip {
+    position: relative;
+    display: inline-block;
+}*/
+
+.tooltip:hover .help-block {
+    visibility: visible;
 }
