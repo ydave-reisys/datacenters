@@ -20928,7 +20928,8 @@
 	  if (typeof help === "string") {
 	    return _react2.default.createElement(
 	      "p",
-	      { className: "help-block" },
+	      { className: "help-block",
+            id: "hint"},
 	      help
 	    );
 	  }
