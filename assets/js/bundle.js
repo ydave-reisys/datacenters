@@ -23918,7 +23918,8 @@
 	  var _onChange = props.onChange;
 
 	  return _react2.default.createElement("input", _extends({}, props, {
-	    className: "form-control tooltip",
+	    className: "form-control",
+          aria-describedby = "hint",
 	    readOnly: readonly,
 	    value: typeof value === "undefined" ? "" : value,
 	    onChange: function onChange(event) {
