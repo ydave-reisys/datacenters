@@ -484,7 +484,7 @@ sup{
     .sidebar-nav,footer{
       display: none;
     }
-    header h1{
-      display: inline-block;
+    header h1: second-child{
+      display: none;
     }
 }
