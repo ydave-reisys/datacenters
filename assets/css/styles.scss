@@ -481,4 +481,7 @@ sup{
     article{
       @include span-columns(12);
     }
+    .sidebar-nav,footer {
+      display: none;
+    }
 }
