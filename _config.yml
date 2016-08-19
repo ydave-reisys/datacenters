@@ -22,12 +22,12 @@ exclude:
 # Site metadata
 name: "Datacenters.cio.gov"
 description: "Data Center Optimization Initiative (DCOI)"
-baseurl: https://ydave-reisys.github.io/datacenters/
+baseurl: https://whitehouse.github.io/datacenters
 # Uncomment the following line for localhost development at http://127.0.0.1:4000/datacenters/
 #baseurl: /datacenters/
 
 # GitHub information
-org_name: ydave-reisys
+org_name: whitehouse
 repo_name: datacenters
 branch: gh-pages
 
@@ -35,33 +35,33 @@ branch: gh-pages
 # List links that should appear in the site sidebar here
 navigation:
 - text: Home
-  url: /datacenters/
+  url: /
 - text: Resources for Agencies
   submenu:
     - text: Inventory Data Submission
-      url:  /datacenters/inventory-data-submission/
+      url:  /inventory-data-submission/
     - text: DCOI Strategic Plans
       submenu:
         - text: Agency Strategic Plans
-          url:  /datacenters/agency-strategic-plan/
+          url:  /agency-strategic-plan/
         - text: JSON Conversion Tool
-          url:  /datacenters/json-conversion-tool/
+          url:  /json-conversion-tool/
         - text: Agency FITARA Milestones Submission
-          url:  /datacenters/milestones/
+          url:  /milestones/
     - text: Data Center Shared Services
-      url:  /datacenters/datacenter-shared-services/
+      url:  /datacenter-shared-services/
     - text: Contact Information & Community of Practice
       submenu:
         - text: Contact Information
-          url:  /datacenters/contact-info/
+          url:  /contact-info/
         - text: DCOI Community of Practice
-          url: /datacenters/community-practice/
+          url: /community-practice/
 - text: Resources for the Public
   submenu:
     - text: View PDF of Memorandum
       url: https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_19_1.pdf/
     - text: Implementation & Progress to Date
-      url: /datacenters/implementation-and-progress/
+      url: /implementation-and-progress/
 
 # sass
 sass:
